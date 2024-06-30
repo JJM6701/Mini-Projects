@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #5c5c5c;
+  padding: 100px;
+  gap: 100px;
+  border-radius: 10px;
+}
+
+.label {
+  font-family: Roboto;
+  font-size: 8em;
+  min-height: 160px;
+  color: white;
+  padding: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 10px;
+  background: #5c5c5c;
+  box-shadow: 20px 20px 60px #4e4e4e, -20px -20px 60px #6a6a6a;
+}
+
+.button {
+  font-family: Roboto;
+  font-size: 2em;
+  color: white;
+  padding: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border: 0;
+  border-radius: 10px;
+  background: #5c5c5c;
+  box-shadow: 20px 20px 60px #4e4e4e, -20px -20px 60px #6a6a6a;
+}
